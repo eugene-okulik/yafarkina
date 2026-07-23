@@ -3,9 +3,9 @@
 import math as m
 
 
-x=10
-y=15
-mean = (x+y)/2
-geom_mean = m.sqrt(x*y)
+x = 10
+y = 15
+mean = (x + y) / 2
+geom_mean = m.sqrt(x * y)
 print(mean)
 print(geom_mean)
