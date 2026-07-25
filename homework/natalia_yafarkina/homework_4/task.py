@@ -1,16 +1,16 @@
 my_dict = {
-"tuple": (1, 2.0, 6, 1024, 3.5, 10, 7.5),
-"list": ['15-89-56', 'удалить', 67.9, 90, 1, None, -8],
-"dict": {
-    "person1": {"name": "Иван", "favorite_color": "красный"},
-    "person2": {"name": "Петр", "favorite_color": "оранжевый"},
-    "person3": {"name": "Федор", "favorite_color": "желтый"},
-    "person4": {"name": "Мария", "favorite_color": "зеленый"},
-    "person5": {"name": "Анастасия", "favorite_color": "голубой"},
-    "person6": {"name": "Анна", "favorite_color": "синий"},
-    "person7": {"name": "Инна", "favorite_color": "фиолетовый"}
-    },
-"set": {'рубашка', 'брюки', 'юбка', 'блузка', 'шорты', 'футболка', 'джемпер'}
+    "tuple": (1, 2.0, 6, 1024, 3.5, 10, 7.5),
+    "list": ['15-89-56', 'удалить', 67.9, 90, 1, None, -8],
+    "dict": {
+        "person1": {"name": "Иван", "favorite_color": "красный"},
+        "person2": {"name": "Петр", "favorite_color": "оранжевый"},
+        "person3": {"name": "Федор", "favorite_color": "желтый"},
+        "person4": {"name": "Мария", "favorite_color": "зеленый"},
+        "person5": {"name": "Анастасия", "favorite_color": "голубой"},
+        "person6": {"name": "Анна", "favorite_color": "синий"},
+        "person7": {"name": "Инна", "favorite_color": "фиолетовый"}
+        },
+    "set": {'рубашка', 'брюки', 'юбка', 'блузка', 'шорты', 'футболка', 'джемпер'}
 }
 
 # Для того, что хранится под ключом ‘tuple’:
