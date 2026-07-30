@@ -13,4 +13,3 @@ result_3 = dig_3 + 10
 print(result_1)
 print(result_2)
 print(result_3)
-
