@@ -5,6 +5,7 @@ def fibonacci():
         yield a
         a, b = b, a + b
 
+
 lst = [5, 200, 1000, 10000, 100000]
 for n in lst:
     fib = fibonacci()
