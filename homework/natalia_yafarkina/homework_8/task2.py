@@ -1,3 +1,8 @@
+import sys
+
+
+sys.set_int_max_str_digits(100000)
+
 def fibonacci():
     a = 0
     b = 1
@@ -9,9 +14,10 @@ def fibonacci():
 lst = [5, 200, 1000, 10000, 100000]
 for n in lst:
     fib = fibonacci()
-    print(f'ряд Фибоначи для {n}:', end=' ')
+    pos = 1
     for num in fib:
-        if num > n:
+        if pos == n:
+            print(f'число Фибоначчи для позиции {pos}: {num}', end=' ')
             break
-        print(num, end=' ')
+        pos += 1
     print()
