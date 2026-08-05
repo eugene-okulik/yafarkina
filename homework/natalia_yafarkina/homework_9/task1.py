@@ -7,4 +7,3 @@ human_date_mon = python_date.strftime('%B')
 print(human_date_mon)
 human_date = python_date.strftime('%d.%m.%y, %H:%M')
 print(human_date)
-
