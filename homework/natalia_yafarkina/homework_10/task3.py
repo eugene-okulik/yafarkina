@@ -24,5 +24,5 @@ def calc(first, second, operation):
         return first / second
 
 
-result = calc(54,12, '+')
+result = calc(54, 12, '+')
 print(result)
