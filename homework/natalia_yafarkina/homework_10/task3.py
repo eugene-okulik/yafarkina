@@ -2,11 +2,11 @@ def controls_operation(func):
     def wrapper(first, second, operation):
         if first == second:
             operation = '+'
-        if first > second:
+        elif first > second:
             operation = '-'
-        if first < second:
+        elif first < second:
             operation = '/'
-        if first < 0 or second < second:
+        elif first < 0 or second < 0:
             operation = '*'
         return func(first, second, operation)
     return wrapper
