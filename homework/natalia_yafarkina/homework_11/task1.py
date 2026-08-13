@@ -12,6 +12,7 @@ class Book:
 
 class StudyBook(Book):
     is_tasks = True
+
     def __init__(self, book_title, author, number_pages, isbn, is_reserved, subject, degree_class):
         super().__init__(book_title, author, number_pages, isbn, is_reserved)
         self.subject = subject
@@ -58,16 +59,22 @@ study_book_1.is_reserved = True
 study_book_3.is_reserved = True
 
 if study_book_1.is_reserved:
-    print(f'Название: {study_book_1.book_title}, Автор: {study_book_1.author}, страниц: {study_book_1.number_pages}, предмет: {study_book_1.subject}, класс: {study_book_1.degree_class}, зарезервирована')
+    print(f'Название: {study_book_1.book_title}, Автор: {study_book_1.author}, страниц: {study_book_1.number_pages},'
+          f' предмет: {study_book_1.subject}, класс: {study_book_1.degree_class}, зарезервирована')
 else:
-    print(f'Название: {study_book_1.book_title}, Автор: {study_book_1.author}, страниц: {study_book_1.number_pages}, предмет: {study_book_1.subject}, класс: {study_book_1.degree_class}')
+    print(f'Название: {study_book_1.book_title}, Автор: {study_book_1.author}, страниц: {study_book_1.number_pages},'
+          f' предмет: {study_book_1.subject}, класс: {study_book_1.degree_class}')
 
 if study_book_2.is_reserved:
-    print(f'Название: {study_book_2.book_title}, Автор: {study_book_2.author}, страниц: {study_book_2.number_pages}, предмет: {study_book_2.subject}, класс: {study_book_2.degree_class}, зарезервирована')
+    print(f'Название: {study_book_2.book_title}, Автор: {study_book_2.author}, страниц: {study_book_2.number_pages},'
+          f' предмет: {study_book_2.subject}, класс: {study_book_2.degree_class}, зарезервирована')
 else:
-    print(f'Название: {study_book_2.book_title}, Автор: {study_book_2.author}, страниц: {study_book_2.number_pages}, предмет: {study_book_2.subject}, класс: {study_book_2.degree_class}')
+    print(f'Название: {study_book_2.book_title}, Автор: {study_book_2.author}, страниц: {study_book_2.number_pages},'
+          f' предмет: {study_book_2.subject}, класс: {study_book_2.degree_class}')
 
 if study_book_3.is_reserved:
-    print(f'Название: {study_book_3.book_title}, Автор: {study_book_3.author}, страниц: {study_book_3.number_pages}, предмет: {study_book_3.subject}, класс: {study_book_3.degree_class}, зарезервирована')
+    print(f'Название: {study_book_3.book_title}, Автор: {study_book_3.author}, страниц: {study_book_3.number_pages},'
+          f' предмет: {study_book_3.subject}, класс: {study_book_3.degree_class}, зарезервирована')
 else:
-    print(f'Название: {study_book_3.book_title}, Автор: {study_book_3.author}, страниц: {study_book_3.number_pages}, предмет: {study_book_3.subject}, класс: {study_book_3.degree_class}')
+    print(f'Название: {study_book_3.book_title}, Автор: {study_book_3.author}, страниц: {study_book_3.number_pages},'
+          f' предмет: {study_book_3.subject}, класс: {study_book_3.degree_class}')
